@@ -1,5 +1,9 @@
 /* Global classes */
 
+section{
+    padding: 1.5rem 5rem;
+}
+
 .button{
     font: 500 16px/20px var(--roboto-mono);
     padding: 1rem;
