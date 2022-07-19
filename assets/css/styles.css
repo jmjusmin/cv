@@ -4,6 +4,8 @@
 @import url(./partials/_global.css);
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 
 /* Navigation */
 .header_area .main-menu .navbar .navbar-brand{
@@ -12,6 +14,14 @@
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem;
+}
+
+.header_area .main-menu .logo{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.5rem;
+    background: var(--primary-color);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header_area .main-menu .nav-item .nav-link{
@@ -72,8 +82,14 @@
 }
 /* End About Area */
 
-/* Skills Area */
-.skills{
-    background: var(--primary-color2);
+/* Project Area */
+
+.project .project-title h1{
+    font-size: 3.5rem;
 }
-/* End Skills Area */
+.card-item{
+    padding-top: 2rem;
+}
+/* End Project Area */
+
+
