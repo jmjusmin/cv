@@ -17,8 +17,8 @@
 }
 
 .header_area .main-menu .logo{
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 1.5rem;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2rem;
     background: var(--primary-color);
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -92,4 +92,8 @@
 }
 /* End Project Area */
 
-
+/* End Contact Area */
+.contact{
+    background: var(--gradient-color);
+}
+/* End Contact Area */

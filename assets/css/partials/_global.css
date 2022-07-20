@@ -1,4 +1,11 @@
 /* Global classes */
+.logo{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2rem;
+    background: var(--primary-color);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 section{
     padding: 1.5rem 5rem;
