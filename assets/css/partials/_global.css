@@ -3,8 +3,8 @@
     font-family: 'Bungee Inline', cursive;
     font-size: 2rem;
     background: var(--primary-color);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section{
@@ -38,4 +38,19 @@ section{
 p.para{
     color: var(--text-color);
     font-size: 1rem;
+}
+
+.social{
+    position: fixed;
+    height: 100vh;
+    top: 45vh;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    
+}
+
+.fa-icon{
+    color: var(--gradient-color);
 }
