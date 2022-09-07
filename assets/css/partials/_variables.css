@@ -2,12 +2,12 @@
 :root{
     --primary-color:#630000;
     --primary-color2:#D8B6A4;
-    --title-color:#141313;
-    --text-color:#777777;
+    --color-black:#141313;
+    --color-grey:#777777;
     --border-color:#EEEBDD;
     --gradient-color:-webkit-linear-gradient(70deg, #630000,#D8B6A4);
     --shadow-color:0px 10px 30px rgba(118,85,225,03);
-    --box-shadow: 0px 10px 30px #d3cccc;
+    --box-shadow: 0px 10px 20px #d3cccc;
 
     /* font family */
     --roboto-mono:'Roboto Mono', monospace;
@@ -19,8 +19,8 @@
     --heading-3-size: 3rem;
     --heading-4-size: 2rem;
 
-    /* padding */
-    --padding-small: 2rem;
-    --padding-medium: 4rem;
-    --padding-lg: 6rem;
+    /* gap */
+    --gap-small: 2rem;
+    --gap-medium: 4rem;
+    --gap-lg: 6rem;
 }

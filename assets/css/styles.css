@@ -35,7 +35,7 @@
     font: 500 var(--default-font-size) var(--roboto-mono);
     text-transform: uppercase;
     padding: 2rem;
-    color: var(--title-color);
+    color: var(--color-black);
 }
 
 .header_area .main-menu .navbar-nav .active{
@@ -54,7 +54,7 @@
 
 /* Banner Area */
 .main .banner{
-    height: 80vh;
+    height: 70vh;
     padding: 2rem 30rem;
     
 }
@@ -70,25 +70,25 @@
 
 .main .banner-title h4{
     font-size: var(--heading-4-size);
-    padding-bottom: var(--padding-medium);
+    padding-bottom: var(--gap-medium);
 }
 
 /* End Banner Area */
 
 /* About Area */
-/* .main .about{
-    padding: 8rem 5rem;
-} */
-
 .main .about-title h2>span{
     display: block;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: var(--heading-2-size);
     letter-spacing: 21px;
 }
 
 .main .about-title .paragraph>p{
     padding-top: .4rem;
+}
+
+.about .btn{
+    margin-top: var(--gap-medium);
 }
 /* End About Area */
 
@@ -97,6 +97,7 @@
 .project .project-title h1{
     font-size: 3.5rem;
 }
+
 .card-item{
     padding-top: 2rem;
 }

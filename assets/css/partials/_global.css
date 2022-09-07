@@ -36,21 +36,25 @@ section{
 }
 
 p.para{
-    color: var(--text-color);
-    font-size: 1rem;
+    color: var(--color-grey);
 }
 
 .social{
     position: fixed;
-    height: 100vh;
     top: 45vh;
-    left: 2rem;
+    left: 4rem;
     display: flex;
     flex-direction: column;
-    background-color: yellowgreen;
-    
+    background-color: rgba(211, 211, 211, 0.3);
+    /* box-shadow: var(--box-shadow); */
+    border-radius: 4rem;
 }
 
-.fa-icon{
-    color: var(--gradient-color);
+.social__img{
+    padding: 2rem;
+}
+
+.social__img:hover{
+    transform: scale(1.3);
+    transition: all .3s;
 }
