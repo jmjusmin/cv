@@ -15,21 +15,26 @@
 }
 
 .header_area .main-menu .navbar{
+    margin-top: 3rem;
     padding: 1rem 20rem;
 }
 
 .header_area .main-menu .logo{
     font-family: 'Bungee Inline', cursive;
-    font-size: 2rem;
+    font-size: var(--heading-3-size);
     background: var(--primary-color);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: 500 15px/2px var(--roboto-mono);
+    font: 500 var(--default-font-size) var(--roboto-mono);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 2rem;
     color: var(--title-color);
 }
 
@@ -49,20 +54,23 @@
 
 /* Banner Area */
 .main .banner{
-    padding: 2rem 20rem;
+    height: 80vh;
+    padding: 2rem 30rem;
+    
 }
 .main .banner-title h3{
-    padding-top: 10%;
+    align-content: center;
     font-weight: 400;
+    font-size: var(--heading-3-size);
 }
 
 .main .banner-title h1{
-    font-size: 3.5rem;
+    font-size: var(--heading-1-size);
 }
 
 .main .banner-title h4{
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
+    font-size: var(--heading-4-size);
+    padding-bottom: var(--padding-medium);
 }
 
 /* End Banner Area */
