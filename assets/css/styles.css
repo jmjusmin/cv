@@ -94,8 +94,12 @@
 
 /* Project Area */
 
-.project .project-title h1{
-    font-size: 3.5rem;
+.project{
+    margin-top: var(--gap-medium);
+}
+
+.project .project-title h2{
+    font-size: var(--heading-2-size);
 }
 
 .card-item{
@@ -105,6 +109,45 @@
 
 /* End Contact Area */
 .contact{
+    width: 90%;
+    margin: 10rem auto 3rem auto;
     background: var(--gradient-color);
 }
+
+.contact h2{
+    font-size: var(--heading-2-size);
+    color: var(--color-white);
+}
+
+.contact input,textarea{
+    width: 100%;
+    margin-top: 2rem;
+    display: block;
+}
+
+.contact label{
+    color: var(--color-white);
+}
+
+.contact button{
+    display: block;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    width: 40%;
+}
+
+.contact button:hover{
+    transform: translateY(-.5rem);
+    box-shadow: var(--box-shadow);
+}
+
+.contact button:active{
+    transform: translateY(0);
+    background-color: var(--primary-color2);
+}
+
+.contact img{
+    /* width: 100%; */
+}
+
 /* End Contact Area */

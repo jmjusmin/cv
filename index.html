@@ -140,7 +140,7 @@
           <div class="row text-center">
             <div class="col-12">
               <div class="project-title">
-                <h1 class="text-uppercase">Projects</h1>
+                <h2 class="text-uppercase">Projects</h2>
                 <p class="para">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -253,28 +253,25 @@
 
       <!-- ==== Contact Area ==== -->
       <section class="contact">
-        <div class="container">
+        <h2 class="text-uppercase">contact</h2>
+        <div class="container-fluid">
           <div class="row">
             <div class="col-lg-8 col-md-6">
-              <h3 class="text-uppercase">contact</h3>
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+              <form action="https://formsubmit.co/jpratheeppornsak@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Portfolio form received">
+                <input type="hidden" name="_next" value="https://127.0.0.1:5500/thanks.html">
+                <input type="text" name="name" placeholder="Name" required>
+                <label for="name">Name</label>
+                <input type="email" name="email" placeholder="Email address" required>
+                <label for="email">Email</label>
+                <textarea type="textarea" name="msg" placeholder="Message" rows="4"required></textarea>
+                <label for="msg">Message</label>
+                <button type="submit">Send</button>
               </form>
             </div>
-            <div class="col-lg-4 col-md-6"></div>
+            <div class="col-lg-4 col-md-6">
+              <img src="assets/img/thankyou.PNG" class="img-fluid" alt="thanks-pic">
+            </div>
           </div>
         </div>
       </section>
@@ -290,7 +287,7 @@
             <a href="#">jmjusmin.io</a>
           </div>
           <div class="social text-center">
-            <a href="https://github.com/jmjusmin"><img src="assets/img/github.svg" class="social__img" alt=""></a>
+            <a href="https://github.com/jmjusmin"><img src="assets/img/github.svg" class="img-fluid social__img" alt=""></a>
             <a href="https://www.linkedin.com/in/jusmin-pt-a9b406149/"><img src="assets/img/linkedin.svg" class="social__img" alt=""></a>
             <a href="mailto: jpratheeppornsak@gmail.com"><img src="assets/img/envelope-fill.svg" class="social__img" alt=""></a>
           </div>
