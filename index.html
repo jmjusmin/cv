@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Jm Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/icon.PNG" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.PNG" />
 
     <!-- ============== Boostrap CSS ================ -->
     <link
@@ -22,15 +22,15 @@
     />
 
     <!-- ============== custom CSS ================ -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <!-- ============== Header ================ -->
-    <header class="header_area">
+    <header class="header_area" id="header">
       <div class="main-menu">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" href="#main">
               jmjusmin.io
             </a>
             <button
@@ -48,18 +48,18 @@
               <div class="me-auto"></div>
               <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#main"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">about</a>
+                  <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">projects</a>
+                  <a class="nav-link" href="#project">projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">contact</a>
+                  <a class="nav-link" href="#contact">contact</a>
                 </li>
               </ul>
             </div>
@@ -72,7 +72,7 @@
     <!-- ============== Main Area ================ -->
     <div class="main">
       <!-- ==== Banner ==== -->
-      <section class="banner">
+      <section class="banner" id="main">
         <div class="container">
           <div class="row align-items-center">
             <div class="col col-lg-6-md-12 banner-title">
@@ -80,25 +80,25 @@
               <h1 class="text-uppercase">I am Jusmin</h1>
               <h4 class="text-uppercase">Full Stack Developer</h4>
               <div class="banner-btn text-left">
-                <button class="btn button text-uppercase" type="button">
+                <a href="#contact" class="btn button text-uppercase">
                   Contact me
-                </button>
+                </a>
               </div>
             </div>
             <div class="col col-lg-6-md-12 banner-img">
-                <img src="./assets/video/banner-video.gif" class="img-fluid mx-auto d-block w-100">
+                <img src="assets/video/banner-video.gif" class="img-fluid mx-auto d-block w-100">
             </div>
           </div>
         </div>
       </section>
       <!-- ==== End Banner ==== -->
       <!-- ==== About Area ==== -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-lg-6 col-sm-6 about-img">
               <img
-                src="./assets/img/about.PNG"
+                src="assets/img/about.PNG"
                 class="img-fluid"
                 alt="about-img"
               />
@@ -134,7 +134,7 @@
       <!-- ==== End About Area ==== -->
 
       <!-- ==== Projects Area ==== -->
-      <section class="project">
+      <section class="project" id="project">
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
@@ -151,9 +151,9 @@
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 card-item">
               <div class="card">
-                <img src="./assets/img/banner.PNG" class="card-img-top" alt="..." />
+                <img src="assets/img/banner.PNG" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h3 class="card-title">Card title</h3>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -175,9 +175,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 card-item">
               <div class="card">
-                <img src="./assets/img/busara-cover.JPG" class="card-img-top" alt="busaraflora-project" />
+                <img src="assets/img/busara-cover.JPG" class="card-img-top" alt="busaraflora-project" />
                 <div class="card-body">
-                  <h5 class="card-title">Busara Flora</h5>
+                  <h3 class="card-title">Busara Flora</h3>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -199,9 +199,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 card-item">
               <div class="card">
-                <img src="./assets/img/banner.PNG" class="card-img-top" alt="..." />
+                <img src="assets/img/banner.PNG" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h3 class="card-title">Card title</h3>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -223,9 +223,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 card-item">
               <div class="card">
-                <img src="./assets/img/banner.PNG" class="card-img-top" alt="..." />
+                <img src="assets/img/cal-cover.jpg" class="card-img-top" alt="cal-project" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h3 class="card-title">Calculator project</h3>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -237,7 +237,7 @@
                       >
                     </div>
                     <div class="col-6">
-                      <a href="#" class="button btn btn-primary"
+                      <a href="https://github.com/jpratheeppornsak/CPSC5042ClientServer" class="button btn btn-primary"
                         ><i class="fa-brands fa-github"></i>&nbspCode</a
                       >
                     </div>
@@ -251,14 +251,14 @@
       <!-- ==== End Projects Area ==== -->
 
       <!-- ==== Contact Area ==== -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="text-uppercase">contact</h2>
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-8 col-md-6">
               <form action="https://formsubmit.co/jpratheeppornsak@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="Portfolio form received">
-                <input type="hidden" name="_next" value="https://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_next" value="https://jmjusmin.github.io/cv/thanks.html">
                 <input type="text" name="name" placeholder="Name" required>
                 <label for="name">Name</label>
                 <input type="email" name="email" placeholder="Email address" required>
@@ -283,7 +283,7 @@
       <div class="container">
         <div class="d-flex flex-row justify-content-center flex-wrap">
           <div class="logo text-center py-4">
-            <a href="#">jmjusmin.io</a>
+            <a href="#main">jmjusmin.io</a>
           </div>
           <div class="social text-center">
             <a href="https://github.com/jmjusmin"><img src="assets/img/github.svg" class="img-fluid social__img" alt=""></a>

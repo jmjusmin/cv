@@ -1,5 +1,5 @@
 /* Reset the default css */
-@import url(./partials/_base.css);
+@import url(partials/_base.css);
 /* Global styling */
 @import url(./partials/_global.css);
 /* CSS variables */
@@ -238,6 +238,11 @@
     
     .about .button{
         width: 100%;
+    }
+
+    .about-img{
+        width: 80%;
+        margin: 0 auto;
     }
 
     .btn{
