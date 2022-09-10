@@ -163,7 +163,7 @@
     }
 
     .main .banner{
-        height: 85vh;
+        height: 65vh;
         padding: 2rem 20rem;
     }
 
@@ -184,8 +184,8 @@
     }
 
     .main .banner{
-        height: 85vh;
-        padding: 2rem 20rem;
+        height: 60vh;
+        padding: 2rem 15rem;
     }
 
     .about{
@@ -194,6 +194,58 @@
 
     .btn{
         margin-top: var(--gap-small);
-        font-size: 90%;
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+    .header_area .main-menu .navbar{
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .main .banner{
+        height: 55vh;
+        padding: 2rem 10rem;
+    }
+
+    .about{
+        margin-top: var(--gap-lg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin-top: var(--gap-small);
+        width: 80%;
+    }
+
+    .contact-img{
+        display: none;
+    }
+}
+
+@media all and (max-width: 576px) and (min-width: 375px){
+    .header_area .main-menu .navbar{
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .main .banner{
+        height: auto;
+        padding: 2rem 8rem;
+    }
+    
+    .about .button{
+        width: 100%;
+    }
+
+    .btn{
+        margin-top: var(--gap-small);
+        width: 80%;
+    }
+
+    .contact-img{
+        display: none;
     }
 }
