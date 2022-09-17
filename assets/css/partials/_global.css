@@ -27,12 +27,16 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.button:hover, .inactive-btn, .inactive-btn:hover{
+.button:hover, .inactive-btn{
     background: whitesmoke;
     background-clip: padding-box;
     color: var(--color-black);
     border-color: var(--gradient-color);
     border-radius: 4px;
+}
+
+.inactive-btn{
+    pointer-events: none;
 }
 
 p.para{

@@ -254,3 +254,43 @@
         display: none;
     }
 }
+
+/* ====================Thank you page==================== */
+.thank-page{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-content{
+    width: 80%;
+    text-align: center;
+}
+
+.thank-h1{
+    font-size: 6rem;
+}
+
+.thank-para{
+    font-size: 2rem;
+}
+
+.back-arrow{
+    position: fixed;
+    top: 4rem;
+    left: 4rem;
+    color: var(--color-black);
+}
+
+.back-arrow:hover{
+    color: var(--primary-color);
+}
+
+@media all and (max-width: 992px){
+    .thank-content{
+        width: 100%;
+    }
+}
