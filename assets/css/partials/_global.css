@@ -11,7 +11,7 @@ section{
     padding: 1.5rem 5rem;
 }
 
-.button{
+.button, .inactive-btn{
     font: 500 16px/20px var(--roboto-mono);
     padding: 1rem;
     position: center;
@@ -27,10 +27,10 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.button:hover{
+.button:hover, .inactive-btn, .inactive-btn:hover{
     background: whitesmoke;
     background-clip: padding-box;
-    color: var(--title-color);
+    color: var(--color-black);
     border-color: var(--gradient-color);
     border-radius: 4px;
 }
@@ -61,6 +61,12 @@ p.para{
 .social__img:hover{
     transform: scale(1.5);
     transition: all .3s;
+}
+
+.inactive-img{
+    background-image: var(rgba(--color-grey, 0.8),
+        url(../img/wedding-small.jpg));
+        background-size: cover;
 }
 
 @media all and (max-width: 576px){
